@@ -14,3 +14,5 @@ jobs:
       version: ${{ github.event.release.tag_name }}
       source: src/DodecaDev.PhilipsHue
       changelog: ${{ github.event.release.body }}
+      # The default "newest prerelease" resolved to 3.0.0-beta.11, below the Store minimum. Bump when a newer CLI ships.
+      cli-version: 3.0.0-beta.15
