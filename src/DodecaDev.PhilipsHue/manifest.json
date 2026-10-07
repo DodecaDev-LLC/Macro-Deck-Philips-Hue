@@ -12,7 +12,7 @@
     "linux-x64": { "executable": "runtimes/linux-x64/DodecaDev.PhilipsHue.dll", "runtime": { "kind": "FrameworkDependent", "dotnetVersion": "10.0" } }
   },
   "publisher": {
-    "name": "DodecaDev LLC"
+    "name": "DodecaDev"
   },
   "license": "MIT",
   "repository": "https://github.com/DodecaDev-LLC/Macro-Deck-Philips-Hue",
