@@ -17,7 +17,8 @@
   "license": "MIT",
   "repository": "https://github.com/DodecaDev-LLC/Macro-Deck-Philips-Hue",
   "additionalLinks": [
-    { "type": "issues", "url": "https://github.com/DodecaDev-LLC/Macro-Deck-Philips-Hue/issues" }
+    { "type": "issues", "url": "https://github.com/DodecaDev-LLC/Macro-Deck-Philips-Hue/issues" },
+    { "type": "donate", "url": "https://ko-fi.com/S5O622WBIQ" }
   ],
   "compatibility": {
     "macroDeck": ">=3.0.0-0"
