@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Actions.SetScene.Name" xml:space="preserve">
+    <value>Set scene</value>
+  </data>
+  <data name="Actions.SetScene.Description" xml:space="preserve">
+    <value>Recalls a scene stored on a Hue bridge.</value>
+  </data>
+  <data name="Actions.SetScene.Scene.Label" xml:space="preserve">
+    <value>Scene</value>
+  </data>
+  <data name="Actions.SetScene.Room.Label" xml:space="preserve">
+    <value>Room</value>
+  </data>
+  <data name="Actions.SetScene.Room.Description" xml:space="preserve">
+    <value>Where to apply the scene. Leave empty to use the scene's own lights.</value>
+  </data>
+  <data name="Actions.SetScene.Room.Placeholder" xml:space="preserve">
+    <value>The scene's own lights</value>
+  </data>
+  <data name="Actions.UpdateLight.Name" xml:space="preserve">
+    <value>Update light</value>
+  </data>
+  <data name="Actions.UpdateLight.Description" xml:space="preserve">
+    <value>Sets one or more Hue lights to a fixed power, brightness and color.</value>
+  </data>
+  <data name="Actions.UpdateLight.Power.Label" xml:space="preserve">
+    <value>Power</value>
+  </data>
+  <data name="Actions.UpdateLight.Power.Unchanged" xml:space="preserve">
+    <value>Leave as it is</value>
+  </data>
+  <data name="Actions.UpdateLight.Brightness.Label" xml:space="preserve">
+    <value>Brightness</value>
+  </data>
+  <data name="Actions.UpdateLight.Brightness.Description" xml:space="preserve">
+    <value>Brightness in percent.</value>
+  </data>
+  <data name="Actions.UpdateLight.Color.Label" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="Actions.UpdateLight.Color.Description" xml:space="preserve">
+    <value>Leave empty to keep each light's current color. White-only lights ignore it.</value>
+  </data>
+  <data name="Actions.AdjustLight.Name" xml:space="preserve">
+    <value>Adjust light</value>
+  </data>
+  <data name="Actions.AdjustLight.Description" xml:space="preserve">
+    <value>Raises or lowers brightness, saturation, hue and color temperature relative to each light's current state.</value>
+  </data>
+  <data name="Actions.AdjustLight.Brightness.Label" xml:space="preserve">
+    <value>Brightness change</value>
+  </data>
+  <data name="Actions.AdjustLight.Saturation.Label" xml:space="preserve">
+    <value>Saturation change</value>
+  </data>
+  <data name="Actions.AdjustLight.Hue.Label" xml:space="preserve">
+    <value>Hue change</value>
+  </data>
+  <data name="Actions.AdjustLight.ColorTemperature.Label" xml:space="preserve">
+    <value>Color temperature change</value>
+  </data>
+  <data name="Actions.AdjustLight.Change.Description" xml:space="preserve">
+    <value>In percent of the full range. Negative values lower it, 0 leaves it unchanged.</value>
+  </data>
+  <data name="Parameters.Bridge.Label" xml:space="preserve">
+    <value>Bridge</value>
+  </data>
+  <data name="Parameters.Bridge.Description" xml:space="preserve">
+    <value>The Hue bridge to use. Only needed when more than one bridge is set up.</value>
+  </data>
+  <data name="Parameters.Bridge.Placeholder" xml:space="preserve">
+    <value>The only bridge</value>
+  </data>
+  <data name="Parameters.Lights.Label" xml:space="preserve">
+    <value>Lights</value>
+  </data>
+  <data name="Parameters.Lights.Description" xml:space="preserve">
+    <value>The lights to change.</value>
+  </data>
+  <data name="Parameters.TransitionTime.Label" xml:space="preserve">
+    <value>Transition time</value>
+  </data>
+  <data name="Parameters.TransitionTime.Description" xml:space="preserve">
+    <value>How long the lights take to fade to the new state.</value>
+  </data>
+  <data name="Setup.UnknownStep" xml:space="preserve">
+    <value>This setup step is unknown. Start the setup again.</value>
+  </data>
+  <data name="Setup.SessionLost" xml:space="preserve">
+    <value>The setup lost track of the bridge. Choose it again.</value>
+  </data>
+  <data name="Setup.Bridge.Title" xml:space="preserve">
+    <value>Choose your Hue bridge</value>
+  </data>
+  <data name="Setup.Bridge.Description" xml:space="preserve">
+    <value>These bridges were found on your network. Pick one, or enter an address yourself.</value>
+  </data>
+  <data name="Setup.Bridge.NoneDiscovered" xml:space="preserve">
+    <value>No Hue bridge was found automatically. Enter the bridge's IP address; the Hue app shows it under Settings, Bridges.</value>
+  </data>
+  <data name="Setup.Bridge.Address.Label" xml:space="preserve">
+    <value>Bridge</value>
+  </data>
+  <data name="Setup.Bridge.Manual" xml:space="preserve">
+    <value>Enter an address</value>
+  </data>
+  <data name="Setup.Bridge.ManualAddress.Label" xml:space="preserve">
+    <value>Bridge address</value>
+  </data>
+  <data name="Setup.Bridge.ManualAddress.Description" xml:space="preserve">
+    <value>The IP address or host name of the bridge on your network.</value>
+  </data>
+  <data name="Setup.Bridge.Discovered" xml:space="preserve">
+    <value>{name} ({address})</value>
+    <comment>Shown for each bridge found on the network.</comment>
+  </data>
+  <data name="Setup.Bridge.NotABridge" xml:space="preserve">
+    <value>No Hue bridge answered at {address}.</value>
+  </data>
+  <data name="Setup.Bridge.AlreadyConfigured" xml:space="preserve">
+    <value>This bridge is already set up as "{name}".</value>
+  </data>
+  <data name="Setup.Link.Title" xml:space="preserve">
+    <value>Press the link button</value>
+  </data>
+  <data name="Setup.Link.Description" xml:space="preserve">
+    <value>Macro Deck needs permission from {name} to control your lights.</value>
+  </data>
+  <data name="Setup.Link.PressButton" xml:space="preserve">
+    <value>Press the round link button on top of the bridge.</value>
+  </data>
+  <data name="Setup.Link.SelectContinue" xml:space="preserve">
+    <value>Within 30 seconds, select Continue.</value>
+  </data>
+  <data name="Setup.Link.NotPressed" xml:space="preserve">
+    <value>The bridge did not see the link button being pressed. Press it, then select Continue again.</value>
+  </data>
+  <data name="Issues.Unauthorized.Title" xml:space="preserve">
+    <value>{name} no longer accepts Macro Deck</value>
+  </data>
+  <data name="Issues.Unauthorized.Description" xml:space="preserve">
+    <value>The bridge rejected the stored key, for example because the app was removed in the Hue app. Pair the bridge again, then remove the old entry.</value>
+  </data>
+  <data name="Issues.Unauthorized.Action" xml:space="preserve">
+    <value>Pair again</value>
+  </data>
+  <data name="Issues.Unreachable.Title" xml:space="preserve">
+    <value>{name} cannot be reached</value>
+  </data>
+  <data name="Issues.Unreachable.Description" xml:space="preserve">
+    <value>The bridge did not answer at its last address and was not found on the network. Check that it is powered on and connected to the same network as this computer.</value>
+  </data>
+  <data name="Issues.Unreachable.Resolved" xml:space="preserve">
+    <value>{name} answers again.</value>
+  </data>
+  <data name="Issues.Unreachable.StillUnreachable" xml:space="preserve">
+    <value>{name} still cannot be reached.</value>
+  </data>
+  <data name="Issues.Unknown" xml:space="preserve">
+    <value>This issue is no longer known. Refresh the list.</value>
+  </data>
+  <data name="Failures.Unreachable" xml:space="preserve">
+    <value>The Hue bridge cannot be reached.</value>
+  </data>
+  <data name="Failures.Timeout" xml:space="preserve">
+    <value>The Hue bridge did not answer in time.</value>
+  </data>
+  <data name="Failures.Unauthorized" xml:space="preserve">
+    <value>The Hue bridge no longer accepts Macro Deck. Pair it again.</value>
+  </data>
+  <data name="Failures.LinkButtonNotPressed" xml:space="preserve">
+    <value>The link button on the bridge was not pressed.</value>
+  </data>
+  <data name="Failures.InvalidResponse" xml:space="preserve">
+    <value>The Hue bridge sent an answer that could not be read.</value>
+  </data>
+  <data name="Failures.Rejected" xml:space="preserve">
+    <value>The Hue bridge refused the change.</value>
+  </data>
+  <data name="Failures.DiscoveryFailed" xml:space="preserve">
+    <value>Hue bridges could not be searched for on the network.</value>
+  </data>
+  <data name="Failures.BridgeNotFound" xml:space="preserve">
+    <value>The Hue bridge was not found on the network. Macro Deck keeps looking for it.</value>
+  </data>
+  <data name="Failures.ResourceGone" xml:space="preserve">
+    <value>A selected light, scene or room no longer exists on the bridge.</value>
+  </data>
+  <data name="Failures.LightIsOff" xml:space="preserve">
+    <value>Some lights are off, so their brightness or color could not change.</value>
+  </data>
+  <data name="Failures.NoBridgeConfigured" xml:space="preserve">
+    <value>No Hue bridge is set up yet. Set one up on the integration page.</value>
+  </data>
+  <data name="Failures.ChooseBridge" xml:space="preserve">
+    <value>More than one Hue bridge is set up. Choose a bridge.</value>
+  </data>
+  <data name="Failures.UnknownBridge" xml:space="preserve">
+    <value>The chosen Hue bridge is no longer set up.</value>
+  </data>
+  <data name="Migration.ColorNotMigrated" xml:space="preserve">
+    <value>The color could not be read, so the lights keep their current color.</value>
+  </data>
+  <data name="Migration.NoLightsSelected" xml:space="preserve">
+    <value>No lights were selected in Macro Deck 2. Choose the lights before using this button.</value>
+  </data>
+</root>

@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/DodecaDev.PhilipsHue/DodecaDev.PhilipsHue.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/DodecaDev.PhilipsHue.Tests/DodecaDev.PhilipsHue.Tests.csproj" />
+  </Folder>
+</Solution>

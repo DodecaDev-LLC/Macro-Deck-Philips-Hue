@@ -1,0 +1,28 @@
+<Project>
+
+    <PropertyGroup>
+        <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+        <CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
+        <CentralPackageFloatingVersionsEnabled>true</CentralPackageFloatingVersionsEnabled>
+        <!-- Floats within the beta line on purpose: nuget.org still carries older, unlisted 3.0.0-preview.N
+             builds, which SemVer sorts above every beta. Override with -p:MacroDeckSdkVersion=<version>. -->
+        <MacroDeckSdkVersion Condition="'$(MacroDeckSdkVersion)' == ''">3.0.0-beta.*</MacroDeckSdkVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageVersion Include="MacroDeck.Localization" Version="$(MacroDeckSdkVersion)" />
+        <PackageVersion Include="MacroDeck.Plugin.Analyzers" Version="$(MacroDeckSdkVersion)" />
+        <PackageVersion Include="MacroDeck.Plugin.Hosting" Version="$(MacroDeckSdkVersion)" />
+        <PackageVersion Include="MacroDeck.Plugin.Serilog" Version="$(MacroDeckSdkVersion)" />
+        <PackageVersion Include="MacroDeck.Plugin.Testing" Version="$(MacroDeckSdkVersion)" />
+        <PackageVersion Include="MacroDeck.Sdk" Version="$(MacroDeckSdkVersion)" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.14.0" />
+        <PackageVersion Include="NUnit" Version="4.3.2" />
+        <PackageVersion Include="NUnit.Analyzers" Version="4.7.0" />
+        <PackageVersion Include="NUnit3TestAdapter" Version="5.0.0" />
+    </ItemGroup>
+
+</Project>

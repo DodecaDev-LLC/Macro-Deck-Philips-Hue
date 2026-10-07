@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "targets": {
+    "win-x64": {
+      "executable": "dotnet",
+      "arguments": [
+        "publish",
+        "DodecaDev.PhilipsHue.csproj",
+        "-c",
+        "Release",
+        "-r",
+        "win-x64",
+        "--self-contained",
+        "false",
+        "-p:UseAppHost=false",
+        "-o",
+        "bin/publish/win-x64"
+      ],
+      "output": "bin/publish/win-x64"
+    },
+    "osx-arm64": {
+      "executable": "dotnet",
+      "arguments": [
+        "publish",
+        "DodecaDev.PhilipsHue.csproj",
+        "-c",
+        "Release",
+        "-r",
+        "osx-arm64",
+        "--self-contained",
+        "false",
+        "-p:UseAppHost=false",
+        "-o",
+        "bin/publish/osx-arm64"
+      ],
+      "output": "bin/publish/osx-arm64"
+    },
+    "linux-x64": {
+      "executable": "dotnet",
+      "arguments": [
+        "publish",
+        "DodecaDev.PhilipsHue.csproj",
+        "-c",
+        "Release",
+        "-r",
+        "linux-x64",
+        "--self-contained",
+        "false",
+        "-p:UseAppHost=false",
+        "-o",
+        "bin/publish/linux-x64"
+      ],
+      "output": "bin/publish/linux-x64"
+    }
+  }
+}

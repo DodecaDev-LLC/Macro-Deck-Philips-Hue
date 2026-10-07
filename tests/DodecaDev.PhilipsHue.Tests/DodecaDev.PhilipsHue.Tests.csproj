@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <IsPackable>false</IsPackable>
+        <IsTestProject>true</IsTestProject>
+        <!-- CA1707: underscored test names. CA1861: literal expected arrays in assertions read better inline. -->
+        <NoWarn>$(NoWarn);CA1707;CA1861</NoWarn>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="MacroDeck.Plugin.Testing" />
+        <PackageReference Include="Microsoft.NET.Test.Sdk" />
+        <PackageReference Include="NUnit" />
+        <PackageReference Include="NUnit.Analyzers" PrivateAssets="all" />
+        <PackageReference Include="NUnit3TestAdapter" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\src\DodecaDev.PhilipsHue\DodecaDev.PhilipsHue.csproj" />
+    </ItemGroup>
+
+</Project>

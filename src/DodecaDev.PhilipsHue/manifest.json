@@ -1,0 +1,34 @@
+{
+  "$schema": "https://schemas.macro-deck.app/plugin-manifest-v1.schema.json",
+  "manifestVersion": 1,
+  "id": "com.dodecadev.philips-hue",
+  "name": "Philips Hue Plugin",
+  "version": "1.0.0",
+  "description": "Control Philips Hue lights from Macro Deck: recall scenes, switch lights on or off, set brightness and color, and nudge brightness, saturation, hue and color temperature. Pairs with one or more Hue bridges on your local network using the bridge's link button. Takes over bridges and buttons from the Macro Deck 2 Philips Hue Plugin. Talks to the bridge over its local HTTP API. Finds bridges with mDNS and a scan of the local subnet, falling back to Signify's discovery service (discovery.meethue.com).",
+  "icon": "Assets/icon.svg",
+  "entrypoints": {
+    "win-x64": { "executable": "runtimes/win-x64/DodecaDev.PhilipsHue.dll", "runtime": { "kind": "FrameworkDependent", "dotnetVersion": "10.0" } },
+    "osx-arm64": { "executable": "runtimes/osx-arm64/DodecaDev.PhilipsHue.dll", "runtime": { "kind": "FrameworkDependent", "dotnetVersion": "10.0" } },
+    "linux-x64": { "executable": "runtimes/linux-x64/DodecaDev.PhilipsHue.dll", "runtime": { "kind": "FrameworkDependent", "dotnetVersion": "10.0" } }
+  },
+  "publisher": {
+    "name": "DodecaDev LLC"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/DodecaDev-LLC/Macro-Deck-Philips-Hue",
+  "additionalLinks": [
+    { "type": "issues", "url": "https://github.com/DodecaDev-LLC/Macro-Deck-Philips-Hue/issues" }
+  ],
+  "compatibility": {
+    "macroDeck": ">=3.0.0-0"
+  },
+  "permissions": [
+    "host:config",
+    "net:outbound"
+  ],
+  "ai": {
+    "interaction": false,
+    "generatedContent": false,
+    "generatedAssets": true
+  }
+}
