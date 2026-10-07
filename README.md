@@ -6,6 +6,10 @@ color, and nudge brightness, saturation, hue and color temperature up or down.
 This is the Macro Deck 3 version of the Macro Deck 2 Philips Hue Plugin. It is a new, out-of-process plugin
 and can take over the bridges and buttons you set up in Macro Deck 2.
 
+If this plugin is useful to you, you can support its development:
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/S5O622WBIQ)
+
 ## Requirements
 
 - Macro Deck 3
